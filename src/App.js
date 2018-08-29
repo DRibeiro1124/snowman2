@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           <span>Let's play the snowman game!</span>
         </p>
-        <section>
+        <section className="letter-container">
           {ALPHABET.map((letter, i) => {
             return <LetterButton key={i}letter= {letter} /> 
           })}

@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class LetterButton extends Component {
     render() {
         return (
-            <button>
-               {this.props.letter} 
+            <button className="letter-button"> 
+                {this.props.letter} 
             </button>
         );
     }
