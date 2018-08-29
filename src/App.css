@@ -1,17 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Shadows+Into+Light+Two|family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+font-family: 'Amaranth', sans-serif;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Baloo Tammudu', cursive;
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 150px;
+  margin: 1%;
+  border-radius: 5em;
 }
 
 .App-header {
-  background-color: #222;
+  background-color: white;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .App-title {
@@ -19,10 +31,15 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 2em;
+  color: white;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
+/* Want to stop snowman from spinning */
+/* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
