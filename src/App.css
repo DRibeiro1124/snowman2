@@ -45,23 +45,44 @@ font-family: 'Baloo Tammudu', cursive;
 } */
 
 .letter-button {
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
+  border: 2px solid darkblue;
+  flex-wrap: wrap;
+  text-align: center;
   margin: 2px; 
   width: 3em;
-  border-radius: 4em;
+  border-radius: 5em;
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 2em;
+
 }
 
 .letter-button:hover {
   background: darkblue;
-    color: white;
+  color: white;
 }
 
-.letter-container {
+.letter-picked-container {
+  /* border: 3px solid blue; */
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 3em;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 1em;
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 2em;
 }
 
+.letter-picked-container > span {
+  color: white;
+}
+
+.letter-picked-container > div {
+  border: 2px solid darkblue;
+  background: red;
+  color: white;
+  text-align: center;
+  margin: 1px; 
+  width: 1em;
+  border-radius: 2em;
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 25px;
+}

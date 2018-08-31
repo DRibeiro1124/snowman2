@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LetterButton extends Component {
     render() {
         return (
-            <button className="letter-button"> 
+            <button onClick={() => this.props.addLetterHandler(this.props.letter)} className="letter-button"> 
                 {this.props.letter} 
             </button>
         );
@@ -12,3 +12,4 @@ class LetterButton extends Component {
 
 export default LetterButton;
  
+
